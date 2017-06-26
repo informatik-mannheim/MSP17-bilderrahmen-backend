@@ -15,13 +15,14 @@ There are two interfaces for communication. The first one is a REST-Interface wh
 Checkout the repository
 ```git clone https://github.com/informatik-mannheim/MSP17-bilderrahmen-backend.git```
 
+Change directory:
+
+``` cd MSP17-bilderrahmen-backend```
+
 Then build with maven:
 
 ``` mvn install ```
 
-Change directory:
-
-``` cd MSP17-bilderrahmen-backend```
 
 Optional: If you want to checkout the webapp aswell use:
 
@@ -33,7 +34,7 @@ Start tomcat:
 
 Access under:
 
-[http://localhost:8090](http://localhost:8090)
+[http://localhost:8090/websocket](http://localhost:8090/websocket)
 
 
 ## SSL
