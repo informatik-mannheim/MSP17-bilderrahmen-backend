@@ -1,7 +1,7 @@
 # MSP17-bilderrahmen-backend
 
 ## General
-The backend of the bilderrahmen-project is written with spring-boot and uses an embedded tomcat as webserver.
+This repository is part of the ['Ich-Zeig-Dir-Was'-Bilderrahmen project](https://github.com/informatik-mannheim/bilderrahmen-msp17). The backend of the bilderrahmen-project is written with spring-boot and uses an embedded tomcat as webserver.
 
 There are two interfaces for communication. The first one is a REST-Interface which is used to create unique tokens for families. The second interface are websockets. These are used to synchronize the swipes, file changes and master requests across all mobile devices via Publish-Subscribe. 
 
@@ -64,4 +64,5 @@ Access under:
 
 
 
-
+## License
+This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
