@@ -7,7 +7,8 @@ There are two interfaces for communication. The first one is a REST-Interface wh
 
 ## Overview
 
-TODO BILD 
+
+![Components](https://felixhefner.de/pics/Synchronizer.png)
 
 ## Deployment
 
