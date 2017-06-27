@@ -19,14 +19,13 @@ Change directory:
 
 ``` cd MSP17-bilderrahmen-backend```
 
-Then build with maven:
-
-``` mvn install ```
-
-
 Optional: If you want to checkout the webapp aswell use:
 
 ```git submodule update --init --remote```
+
+Then build with maven:
+
+``` mvn install ```
 
 Start tomcat:
 
@@ -62,6 +61,15 @@ Access under:
 [https://localhost:8443](https://localhost:8443)
 
 
+## Performance-Test
+If you want to execute the performance-test you need to configure this file to your needings:
+[TestConfig](src/test/java/de/hsmannheim/bilderrahmen/stresstest/config/TestConfig.java).
+
+Make sure you have a running version of the backend!
+
+Then run the following command on the project root
+
+```mvn test -P performance-test```
 
 
 ## License
