@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * Created by mjando on 13.06.17.
  */
-public class StressTes {
+public class StressTest {
 
     //Main test map.
 
