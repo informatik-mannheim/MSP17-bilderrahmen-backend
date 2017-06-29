@@ -71,6 +71,17 @@ Then run the following command on the project root
 
 ```mvn test -P performance-test```
 
+## Troubleshooting
+
+If the `openssl` from the *SSL*-section does not work for you since you do not have a SSL certificate, try the following command to create a self-signed certificate. Note that `keytool` only works if your JDK installation is in your $PATH - variable.
+
+```bash
+$ keytool -genkey -alias hs -storetype PKCS12 \
+-keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
+```
+
+More information can be found on [this Stackoverflow-Page](https://stackoverflow.com/questions/40137773/self-signed-certificates-in-spring-boot) .
+
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
